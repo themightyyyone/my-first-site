@@ -1,0 +1,320 @@
+
+
+ul{
+	list-style:none;
+}
+
+
+.main li a{
+	display:block;
+	margin:1px;
+	padding:10px;
+	min-width:150px;
+	background-color:#cacaca;
+	color:#333;
+	text-decoration:none;	
+	transition:all .5s linear;
+	box-shadow:5px 10px 10px;
+	font-family:Harrington regular;
+	font-weight:bold;
+	transition: all 0.5s ease 0s;
+}
+
+
+.main>li{
+	position:relative;
+	float:left;
+}
+
+.main li:hover>a{
+	text-shadow:1px 1px 2px yellow;
+	color:#fff;
+	background-color:#333;
+	transform:scale(0.95);
+
+}
+
+
+.sub{
+	position:absolute;
+	top:100%;
+	left:-40px;
+	min-width:150px;
+	display:none;
+}
+
+.main li:hover .sub{
+	display:block;
+}
+.nav {
+	height:200px;
+	width:70%;
+}
+.logo {
+	height:150px;
+	width:100%;
+}
+
+#menu{
+	height:50px;
+}
+
+
+.child{
+	position:absolute;
+	top:45px;
+	left:152px;
+	display:none;
+	z-index:100;
+}
+
+.main li .sub li:hover .child{
+	display:block;
+}
+
+#wrapper{
+	position:relative;
+	background-color:#ffffb3;
+	border:1px solid green;
+	min-height:100%;
+}
+
+
+#content{
+	padding-bottom:50px;
+	background-color:#ffffb3;
+}
+
+#footer{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	height:50px;
+	background-color:#9c4e16;
+}
+
+#v_menu{
+	min-width:100px;
+	padding:10px;
+	position:fixed;
+	top:10px;
+	right:10px;
+	
+}
+
+#v_menu li a{
+	display:block;
+	padding:10px;
+	color:#000;
+	text-decoration:none;
+	background-color:#cacaca;
+	box-shadow:5px 10px 10px;
+	transition:all .5s linear;
+	font-family:Harrington regular;
+	font-weight:bold;
+	transition:all 0.5s ease 0s;
+
+}
+
+#v_menu li:hover a{
+	color:#fff;
+	text-shadow:1px 1px 2px yellow;
+	background-color:#333;
+	transform:scale(0.95);
+}
+
+.pages{
+	position:absolute;
+	bottom:50px;
+	left:0px;
+}
+
+.pages a{
+	color:black;
+	float:left;
+	padding:8px 16px;
+	text-decoration:none;
+}
+
+.pages a.active, .pages a.active:hover{
+	background-color:#4CAF50;
+	color:white;
+}
+
+.pages a:hover{
+	background-color:#ddd;
+}
+
+.clear{
+	clear:both;
+}
+
+.container_images{
+	position:relative;
+	width:800px;
+	height:300px;
+	margin: 0 auto;
+}
+
+.big{
+	position:relative;
+	float:left;
+	width:50%;
+	height:100%;
+}
+.big img{
+	width:100%;
+	height:100%;
+}
+
+.small{
+	position:relative;
+	float:right;
+	width:50%;
+	height:100%;
+}
+
+.small1 img, .small2 img{
+	width:100%;
+	height:50%;	
+}
+
+.text_big {
+	position:absolute;
+	background-color:#000;
+	bottom:0px;
+	left:0px;
+	z-index:10;
+	height:30px;
+	width:100%;
+	opacity:0.6;
+}
+
+
+
+.text_small1 {
+	position:absolute;
+	background-color:#000;
+	bottom:150px;
+	right:0px;
+	z-index:10;
+	height:30px;
+	width:100%;
+	opacity:0.6;
+	
+}
+
+
+.text_small2 {
+	position:absolute;
+	background-color:#000;
+	bottom:0px;
+	right:0px;
+	z-index:10;
+	height:30px;
+	width:100%;
+	opacity:0.6;
+}
+
+.text_img {
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	font-size:20px;
+	font-family:Harrington regular;
+
+	
+}
+
+.text_img:hover {
+	text-decoration:none;
+	color:yellow;
+}
+
+.latest_posts{
+	margin:20px;
+	padding:10px;
+	border:1px solid red;
+	height:40px;
+	width:140px;
+	color:#fff;
+	background-color:red;
+	font-family:Harrington regular;
+
+}
+
+.bottom_container {
+	position:relative;
+	height:180px;
+	width:800px;
+	margin: 0 auto;
+}
+
+.bottom_image {
+	float:left;
+	height:100%;
+	width:250px;
+}
+
+.b_i_margin {
+	margin-right:24px;
+}
+
+.bottom_image img {
+	height:100%;
+	width:100%;
+	opacity:0.6;
+	transition: all 2s ease 0s;
+}
+
+.bottom_image img:hover {
+	height:100%;
+	width:100%;
+	opacity:1;
+	cursor:pointer;
+	transform:scale(1.05);
+	border:1px solid brown;
+}
+
+.data {
+	width:800;
+	height:240px;
+	margin:0 auto;
+}
+
+.label {
+	float:left;
+	width:250px;
+	height:240px;
+}
+
+.l_margin {
+	margin-right:24px;
+}
+
+.title {
+	font-size:20px;
+	font-family:Harrington regular;
+	text-decoration:none;
+	color:#333;
+	font-weight:bold;
+}
+
+.title:hover {
+	text-decoration:none;
+	color:yellow;
+}
+
+.data span {
+	font-size:12px;
+	font-family:DejaVu Sans;
+}
+
+.meta {
+	width:100%;
+}
+
+.label p {
+	font-family:Pacifico Regular;
+}
